@@ -21,7 +21,7 @@
       </a>
     </div>
     <hr class="horizontal dark mt-0" />
-    <div class="collapse navbar-collapse w-auto h-75" style="width: 100%;" id="sidenav-collapse-main">
+    <div class="collapse navbar-collapse w-auto h-100" style="width: 100%;" id="sidenav-collapse-main">
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link <?php if(isset($_GET['hal'])){if($_GET['hal']=='dashboard'){echo"active";}}?>" href="index.php?hal=dashboard">
